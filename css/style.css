@@ -334,6 +334,7 @@
 
 .hmenu{
     width: 100%;
+    display: inline-block;
 }
 
 .hmenu h2{
@@ -349,10 +350,10 @@
 }
 
 .lsmenu a{
-    background-color: rgb(255, 255, 255); /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 10px; /* Add some padding */
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    display: block;
+    padding: 10px; 
     text-decoration: none; 
 }
 
@@ -366,15 +367,13 @@
 }
 
 
-.badan
-{
+.isimenu{
     width: 75%;
     margin: 35px auto;
-    background-color: white;
     padding: 0px;
-    overflow: hidden;
-    margin-top: -140px;
     float: right;
+    margin-top: -140px;
+
 }
  
 .list-produk
